@@ -1,0 +1,75 @@
+
+
+h1{
+
+    text-align: center;
+}
+
+main{
+
+    width: 1000px;
+    min-height: 400px;
+    border: 3px solid black;
+    margin: 100px auto;
+}
+
+main li{
+
+    color: blue;
+    font-size: 24px;
+    border-top: 2px solid brown;
+
+}
+
+main h1{
+
+    color: yellowgreen;
+    font-size: 40px;
+}
+
+main > h1{
+
+    color: chocolate;
+
+}
+
+ul > li{
+
+    color: aquamarine;
+}
+
+main > p {
+
+    color: slateblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+
+.container > .box{
+
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+ 
+
+}
+
+ .box ~ .box{
+
+    background-color: rgb(225, 29, 29);
+
+
+} 
+
+/* .box + .box{
+
+
+    background-color: red;
+} */
+
