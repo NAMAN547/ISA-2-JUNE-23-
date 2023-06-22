@@ -1,0 +1,55 @@
+
+
+div{
+
+    width: 250px;
+    height: 200px;
+    border: 2px solid black;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+#static-middle{
+
+    position: static;
+    top: 200px;
+    right: 300px;
+
+}
+
+#relative-middle{
+
+    position: relative;
+    top: 20px;
+left: 600px;
+    
+}
+
+/* .parent-relative{
+
+    position: relative;
+    border: 2px solid black;
+
+
+
+
+
+} */
+
+#absolute-middle{
+    position: absolute;
+    top: 40px;
+    right: 200px;
+
+}
+
+#fixed-middle{
+
+    position: fixed;
+    top: 100px;
+    right: 200px;
+}
