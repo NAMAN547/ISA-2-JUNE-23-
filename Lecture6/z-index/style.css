@@ -1,0 +1,42 @@
+section{
+
+   width: 100vw;
+   height: 100vh;
+   background-color: chocolate;
+   /* opacity: 0.5; */
+}
+
+.box{
+
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    margin: 10px ;
+}
+
+div:nth-of-type(3){
+
+    position: relative;
+    top: 100px;
+    right: 400px;
+    z-index: 3;
+}
+
+div:nth-of-type(2){
+
+    position: relative;
+    top:50px;
+    right: 150px;
+    z-index: 1;
+}
+
+div:nth-of-type(1){
+
+    position: relative;
+    z-index: 2;
+ 
+}
+

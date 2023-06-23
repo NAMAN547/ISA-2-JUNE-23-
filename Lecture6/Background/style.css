@@ -1,0 +1,12 @@
+
+
+section{
+
+    width: 80vw;
+    height: 60vh;
+    border: 2px solid black;
+    background-image: url("https://plus.unsplash.com/premium_photo-1668456012219-e3299fd0307e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+}

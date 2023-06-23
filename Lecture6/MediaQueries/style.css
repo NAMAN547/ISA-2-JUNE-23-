@@ -1,0 +1,66 @@
+
+
+h1{
+
+    font-size: 50px;
+    color: cadetblue;
+    text-align: center;
+}
+
+section{
+    
+    width: 60vw;
+    /* height: 50vh; */
+    border: 2px solid black;
+    background-color: brown;
+    color: white;
+    margin: 100px auto;
+    font-size: 30px;
+}
+
+
+span{
+
+    font-size: 2em;
+    color:black;
+    position: relative;
+    left: 300px;
+}
+
+@media screen and (max-width: 768px) and (min-width:450px){
+
+    section{
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    h1{
+
+        font-size: 30px ;
+        color:blue
+    }
+
+    p{
+
+        color: aqua;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:450px){
+
+    h1{
+
+        color: yellow;
+        font-size: 15px;
+    }
+
+    p{
+
+        color: chocolate;
+    }
+
+
+}
